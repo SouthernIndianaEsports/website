@@ -7,7 +7,9 @@ nav = Nav()
 def navigation_bar():
     return Navbar(
         "SIEA",
-        View("Home", "index")
+        View("Home", "index"),
+        View("Events", "events"),
+        View("About", "about")
     )
 
 def navigation_init(app):
