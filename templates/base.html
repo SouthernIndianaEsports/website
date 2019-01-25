@@ -1,0 +1,18 @@
+{%- extends "bootstrap/base.html" %}
+
+{% block title %}Southern Indiana Esports{% endblock %}
+
+{% import "bootstrap/fixes.html" as fixes %}
+
+{% block head %}
+{{super()}}
+{{fixes.ie8()}}
+{%- endblock %}
+
+{% block styles -%}
+    {{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{nav.navigation_bar.render()}}
+{% endblock %}
