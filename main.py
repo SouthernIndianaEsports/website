@@ -19,3 +19,7 @@ def about():
 @app.route("/social")
 def social():
     return render_template("social.html")
+
+@app.route("/calendar")
+def calendar():
+    return render_template("calendar.html")
